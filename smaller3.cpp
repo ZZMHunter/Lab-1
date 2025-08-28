@@ -22,7 +22,7 @@ int main()
     cout << "Enter the third integer: ";
     cin >> c;
     // takes inputs a, b, and c
-    if (a < b)
+    if (a < b)// compares int a to in b which will lead them to their own sections
     {
         if (a < c)
         {
@@ -32,11 +32,11 @@ int main()
         {
             cout << c << " is smaller" << endl;
         }
-        else
+        else 
         {
             cout << "They are all same" << endl;
         }
-    }
+    }// compares int a and int c, and prints whichever one is smaller, in addition if they are equal print that they are the same
     else if (b < a)
     {
         if (b < c)
@@ -52,6 +52,6 @@ int main()
             cout << "They are all same" << endl;
         }
     }
-    // compares int a, int b, and int c, and prints whichever one is smaller, in addition if they are equal print that they are the same
+    // compares int b and int c, and prints whichever one is smaller, in addition if they are equal print that they are the same
     return 0;
 }
