@@ -10,13 +10,20 @@ Task C: Finds whether a year is a leap year
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     int year;
     cout << "Enter a year: ";
     cin >> year;
-    if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+    // takes input year
+    if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
+    {
         cout << year << " C.E. is a leap year" << endl;
-    } else {
+    }
+    else
+    {
         cout << year << " C.E. is a common year" << endl;
     }
+    // checks for requirements for a year to be considered a leap year and prints whether or not it is a leap year
+    return 0;
 }
