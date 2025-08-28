@@ -24,11 +24,11 @@ int main()
         // checks if month is feburary, and if it is a leap year to print either 28 or 29
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
         {
-            cout << 28 << " days" << endl;
+            cout << 29 << " days" << endl;
         }
         else
         {
-            cout << 29 << " days" << endl;
+            cout << 28 << " days" << endl;
         }
     }
     else if (month % 2 == 0)
