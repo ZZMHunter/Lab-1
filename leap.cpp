@@ -1,7 +1,7 @@
 /*
 Author: Zhao Zhang
 Course: CSCI-135
-Instructor: Tony Yi
+Instructor: Tong Yi
 Assignment: Lab 1
 
 Task C: Finds whether a year is a leap year
